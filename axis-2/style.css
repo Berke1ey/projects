@@ -1,0 +1,65 @@
+.main {
+	height: 300px;
+	margin: 0px auto;
+	width: 800px;
+}
+
+.task-wrapper {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.image-wrapper img {
+	width: 100%;
+}
+
+.image-wrapper {
+	margin-top: -17px;
+}
+
+.circle {
+	border: 1px solid red;
+	border-radius: 99999px;
+	position: absolute;
+}
+
+.a-circle, .b-circle {
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+	background: transparent url("arrow.svg") no-repeat 100% 100%;
+}
+
+.b-circle-wrapper {
+	display: none;
+}
+
+.arrows-wrapper {
+	width: 714px;
+	margin: 0px auto;
+	margin-left: auto;
+	letter-spacing: 0;
+	display: flex;
+	align-items: flex-end;
+	margin-left: 32px;
+	height: 150px;
+}
+
+.a-circle-wrapper, .b-circle-wrapper {
+	text-align: center;
+}
+
+.a-input, .b-input, .c-input {
+	width: 40px;
+	text-align: center;
+}
+
+.bottom {
+	margin-top: 50px;
+}
+
+* {
+	box-sizing: border-box;
+}
